@@ -18,9 +18,10 @@ Details about each project are available below.
 **Description**<br>
 Pig game is a simple dice game that has few different version. In this one, two players are taking turn in rolling a die until a winner reach 100 points. In each turn, the active player can throw as many times s/he wants and decide when s/he wants to keep the score. If s/he roll a 1, s/he will loose all the points s/he has cummulated within that turn.
 This project was created as part of JavaScript Bootcamp by Jonas Schmedtmann.<br><br>
+**External credit** Panel design and HTML/CSS were provided from the course.<br><br>
 **What I did differently**<br>
 - All the Javascript codes were made from the scratch without following the given guided codes.
 - Rules are accessible from inside the game. Rules tab is added into the page.
 - Improvement in the design and microinteractions.<br>
-**External credit** Panel design and HTML/CSS were provided from the course.<br>
+
 [Back to the top](#One-Page-Javascript-Projects)
