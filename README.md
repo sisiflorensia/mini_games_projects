@@ -3,7 +3,7 @@
 This repository was created on January 2020 to focus on my learning in Front-End design & development. The interactions in the games will be created mostly using vanila Javascript ES6 & CSS config, while the structures will be built using Bootstrap or HTML/CSS.
 
 ## List of independent entries
-- [Roll The Dice: Pig Game] (src/README.md###Roll The Dice: Pig Game (Release 1.0)) (Release 1.0)
+- [Roll The Dice: Pig Game] (###Roll The Dice: Pig Game (Release 1.0)) (Release 1.0)
 - Budget Tracker (In Progress)
 - Recipe Collector (Coming Soon)
 
