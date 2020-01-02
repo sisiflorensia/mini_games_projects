@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Basic SEO -->
+            <!-- favicon -->
+            <link rel="title icon" href="favicon.png">
+        <title>La Lunatech | Mini Games | Roll The Dice!</title>
+        <meta name="description" content="A fun and engaging mini games replicated from Pig Games, built completely on the front end using vanilla JavaScript. This project is part of the portfolio of Sisi Florensia.">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="to-hide player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">0</div>
+                </div>
+            </div>
+            <div class="to-hide show-tab" id="btn-rules">RULES</div>
+            <div class="hide" id="btn-back">Back to The Game</div>
+            <div class="to-hide player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="to-hide btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="to-hide btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="to-hide btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            
+            <img src="dice-5.png" alt="Dice" class="to-hide dice">
+
+            <div class="player-rules-panel hide">
+                <h1>GAME RULES</h1>
+                <ol>
+                    <li>The game has 2 players playing in rounds.</li>
+                    <li>In each turn, a player rolls a dice as many times as s/he whishes. Each result get added to current player's <em>round</em> score.</li>
+                    <li>However, when the player rolls a 1 (one), all his <em>round</em> score will be lost and it's the next player's turn.</li>
+                    <li>The current player can choose to 'Hold' to transfer the <em>round</em> score to the <em>global</em> score. After that, it's the next player's turn.</li>
+                    <li>The first player to reach 100 points on <em>global</em> score wins the game.</li>
+                </ol>
+            </div>
+        </div>
+ 
+        <script src="app.js"></script>
+    </body>
+</html>
