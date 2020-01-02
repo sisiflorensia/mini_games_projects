@@ -1,4 +1,4 @@
-# One Page Javascript Project
+# One Page Javascript Projects
 
 This repository was created on January 2020 to focus on my learning in Front-End design & development. The interactions in the games will be created mostly using vanila Javascript ES6 & CSS config, while the structures will be built using Bootstrap or HTML/CSS.
 
