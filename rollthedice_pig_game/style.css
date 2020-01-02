@@ -194,6 +194,15 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
+.disabled {
+    opacity: .6;
+}
+.disabled:hover {
+    opacity: .6;
+    font-weight: 300;
+}
+.disabled:hover i { margin-right: 15px; }
+
 .dice {
     position: absolute;
     left: 50%;
